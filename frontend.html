@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oreva | Frontend Development</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo"><a href="portfolio.html">Oreva</a></h1>
+      <ul class="nav-links">
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="frontend.html" class="active-link">Frontend</a></li>
+        <li><a href="smm.html">Social Media</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero page-hero--frontend">
+    <div class="section-inner">
+      <a href="portfolio.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to home</a>
+      <div class="page-hero-icon"><i class="fas fa-code"></i></div>
+      <h2>Frontend Development</h2>
+      <p>Building responsive, accessible, and performant web interfaces from design to deployment.</p>
+      <div class="discipline-pills" style="justify-content: center; margin-top: 1.5rem;">
+        <span>React</span><span>HTML5</span><span>CSS3</span><span>JavaScript ES6+</span><span>Figma</span><span>Git</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="section-inner">
+      <h3>Projects</h3>
+      <p class="section-sub">A selection of frontend work built from scratch.</p>
+      <div class="project-container">
+
+        <div class="project">
+          <div class="project-img-wrap">
+            <img src="Reva-pic.jpeg" alt="Portfolio Website" />
+          </div>
+          <div class="project-body">
+            <span class="project-track">HTML / CSS / JavaScript</span>
+            <h4>Portfolio Website</h4>
+            <p>A responsive and animated personal portfolio built with HTML, CSS, and JavaScript — designed to showcase skills, projects, and social links.</p>
+            <a href="https://thelumin.netlify.app" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-img-wrap project-img-icon">
+            <i class="fas fa-check-square"></i>
+          </div>
+          <div class="project-body">
+            <span class="project-track">React / Local Storage</span>
+            <h4>Todo App</h4>
+            <p>An interactive task manager built with React and local storage for persistent, client-side data management.</p>
+            <a href="#" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-img-wrap project-img-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="project-body">
+            <span class="project-track">React / Figma</span>
+            <h4>Lumin Landing Page</h4>
+            <p>A modern product landing page designed in Figma and built with React, focused on clean layout and visual hierarchy.</p>
+            <a href="#" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" style="background: #f8f6fb;">
+    <div class="section-inner">
+      <h3>Skills in this discipline</h3>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h4>Languages</h4>
+          <ul class="skill-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript ES6+</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-cubes"></i></div>
+          <h4>Frameworks</h4>
+          <ul class="skill-list">
+            <li>React</li>
+            <li>Responsive design</li>
+            <li>CSS animations</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-tools"></i></div>
+          <h4>Tools</h4>
+          <ul class="skill-list">
+            <li>Figma</li>
+            <li>Git / GitHub</li>
+            <li>VS Code</li>
+            <li>Chrome DevTools</li>
+            <li>Netlify</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="section-inner">
+      <h3>Want to work together?</h3>
+      <p>I am open to frontend roles, freelance projects, and collaborations.</p>
+      <a href="mailto:orevaomanufeme@gmail.com" class="btn btn-primary">Email Me</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Oreva. Built with 💜 using HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
